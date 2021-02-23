@@ -4,15 +4,13 @@ h1 {
 	color: #000000;
 	font-size: 1.2em;
 }
+/*** HEADER ***/
 
 #header-nav {
 	border: 0;
 }
 
-.navbar-brand {
-	padding-top: 0px;
-}
 
-.navbar-brand a{
+.navbar-header a{
 	text-decoration: none;
-	
+}
