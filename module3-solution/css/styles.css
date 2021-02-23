@@ -2,9 +2,17 @@
 
 h1 {
 	color: #000000;
+	font-size: 1.2em;
+}
+
+#header-nav {
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 0px;
 }
 
 .navbar-brand a{
 	text-decoration: none;
 	
-}
