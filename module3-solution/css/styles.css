@@ -1,0 +1,10 @@
+/** Navbar Header **/
+
+h1 {
+	color: #000000;
+}
+
+.navbar-brand a{
+	text-decoration: none;
+	
+}
