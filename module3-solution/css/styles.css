@@ -1,16 +1,61 @@
 /** Navbar Header **/
 
-h1 {
-	color: #000000;
-	font-size: 1.2em;
+ * {
+	box-sizing: border-box;
 }
-/*** HEADER ***/
 
 #header-nav {
-	border: 0;
+	background-color: ;
+}
+
+/*** HEADER ***/
+
+.navbar-brand h1 {
+	color: #797281;
+	font-size: 1em;
+	margin-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*** NAVIGATION DROP DOWN ***/
+
+#nav-list {
+	background-color: #FCB3A3;
+
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+	color: #F2EFEF;
+	background-color: #F19886;
+}
+
+/*** MAIN CONTENT ***/
+
+.main .header {
+	margin-bottom: 30px;
 }
 
 
-.navbar-header a{
-	text-decoration: none;
+#menu-1, #menu-2, #menu-3 {
+	border: 3px solid #DEEEEB;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding: 0px 15px 0px 15px;
+}
+
+
+
+/****** Extra small devices ******/
+@media (max-width: 768px) {
+
+#home-tiles {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 }
