@@ -36,7 +36,50 @@
 
 /*** MAIN CONTENT ***/
 
-.main .header {
+/** Animated Menu title **/
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 3.8em;
+  color: #40403C;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.25em;
+  padding-right: 0.05em;
+  padding-bottom: 0.35em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #F7F4BD;
+  transform-origin: 0.5 0;
+}
+
+.m15 .glyphicon {
+  font-family: Baskerville, serif;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+
+}
+
+/** Animated menu title ends here **/
+
+.main  {
 	margin-bottom: 30px;
 }
 
