@@ -4,7 +4,7 @@ anime.timeline({loop: true})
     opacity: [0.5,1],
     scaleX: [0, 1],
     easing: "easeInOutExpo",
-    duration: 700
+    duration: 900
   }).add({
     targets: '.ml5 .line',
     duration: 600,
@@ -36,5 +36,5 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 900
   });
